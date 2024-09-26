@@ -45,7 +45,7 @@ jobs:
             || 'test-signing' }}
       with:
         api-token: '${{ secrets.SIGNPATH_API_TOKEN }}'
-        connectors-url: 'https://githubactions.connectors.fqa.test.signpath.io:15021/'
+        connector-url: 'https://githubactions.connectors.fqa.test.signpath.io:15021/'
         organization-id: '${{ vars.SIGNPATH_ORGANIZATION_ID }}'
         project-slug: 'Demo_Application'
         signing-policy-slug:  '${{ env.SIGNPATH_SIGNING_POLICY_SLUG }}'
