@@ -1,0 +1,26 @@
+{
+  "version": "2.6.0",
+  "summary": {
+    "title": "New Threat Model",
+    "owner": "Phillip Deng",
+    "description": "This threat model describes a CI/CD-based code signing pipeline using GitHub Actions.\n\nA developer pushes code to a GitHub repository, which triggers a GitHub Actions workflow. The workflow builds an artifact and submits it to the SignPath for signing. It then signs the artifact and the signed artifact is then returned and used for release.\n\nThe model focuses on identifying threats in the interaction between the CI system, artifact handling, and the signing infrastructure, including trust boundaries and potential attack vectors in the software supply chain.",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "CI/CD Signing Flow",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.0",
+        "cells": []
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "",
+    "threatTop": 0
+  }
+}
