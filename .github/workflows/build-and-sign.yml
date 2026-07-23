@@ -47,8 +47,8 @@ jobs:
         api-token: '${{ secrets.SIGNPATH_API_TOKEN }}'
         connector-url: 'https://githubactions.connectors.fqa.test.signpath.io:15021/'
         organization-id: '${{ vars.SIGNPATH_ORGANIZATION_ID }}'
-        project-slug: 'SIGN-7287'
-        signing-policy-slug:  'SIGN-7287'
+        project-slug: 'test'
+        signing-policy-slug:  'test_powershell'
         github-artifact-id:  "${{steps.upload-unsigned-artifact.outputs.artifact-id}}"
         wait-for-completion: true
         output-artifact-directory: 'demo-application-signed'
